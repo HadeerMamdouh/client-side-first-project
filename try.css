@@ -1,0 +1,33 @@
+.chat-bubble {
+    position: relative;
+    width: 300px;              /* Adjust width as needed */
+    margin: 20px;
+}
+
+.chat-bubble textarea {
+    width: 100%;
+    height: 100px;             /* Adjust height as needed */
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid #ccc;    /* Customize border color */
+    outline: none;
+    resize: none;              /* Prevent resizing for a consistent look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.chat-bubble .tail {
+    position: absolute;
+    bottom: -10px;             /* Position the tail slightly below the bubble */
+    left: 20px;                /* Adjust to position the tail */
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 2px solid #ccc;    /* Match the border of the textarea */
+    transform: rotate(45deg);  /* Rotates to create a triangular shape */
+    border-top: none;
+    border-left: none;
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for the tail */
+    background-color: white;   /* Match background color */
+}
